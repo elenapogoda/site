@@ -1,0 +1,48 @@
+@import "partials/base";
+
+body {
+  background-color: $main-color;
+  text-align: center;
+}
+header {
+  background-color: $h-color;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 960px;
+}
+.logo {
+  background-color: $l-color;
+}
+.user_menu {
+  background-color: $um-color;
+}
+nav {
+  background-color: $nav-color;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 960px;
+}
+.site_menu {
+  background-color: $sm-color;
+}
+.navigation {
+  background-color: $n-color;
+}
+.content {
+  background-color: $c-color;
+}
+footer {
+  background-color: $f-color;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 960px;
+}
+.f_logo {
+  background-color: $fl-color;
+}
+.copyright {
+  background-color: $cop-color;
+}

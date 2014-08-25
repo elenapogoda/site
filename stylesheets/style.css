@@ -1,0 +1,67 @@
+/* line 3, ../sass/style.scss */
+body {
+  background-color: red;
+  text-align: center;
+}
+
+/* line 7, ../sass/style.scss */
+header {
+  background-color: blue;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 960px;
+}
+
+/* line 14, ../sass/style.scss */
+.logo {
+  background-color: yellow;
+}
+
+/* line 17, ../sass/style.scss */
+.user_menu {
+  background-color: green;
+}
+
+/* line 20, ../sass/style.scss */
+nav {
+  background-color: pink;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 960px;
+}
+
+/* line 27, ../sass/style.scss */
+.site_menu {
+  background-color: violet;
+}
+
+/* line 30, ../sass/style.scss */
+.navigation {
+  background-color: white;
+}
+
+/* line 33, ../sass/style.scss */
+.content {
+  background-color: orange;
+}
+
+/* line 36, ../sass/style.scss */
+footer {
+  background-color: brown;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 960px;
+}
+
+/* line 43, ../sass/style.scss */
+.f_logo {
+  background-color: gray;
+}
+
+/* line 46, ../sass/style.scss */
+.copyright {
+  background-color: purple;
+}
