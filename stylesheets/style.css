@@ -1,67 +1,138 @@
-/* line 3, ../sass/style.scss */
+/* line 4, ../sass/style.scss */
 body {
   background-color: red;
   text-align: center;
 }
 
-/* line 7, ../sass/style.scss */
+/* line 8, ../sass/style.scss */
 header {
   background-color: blue;
+  height: 80px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 10px;
   width: 960px;
 }
 
-/* line 14, ../sass/style.scss */
+/* line 15, ../sass/style.scss */
 .logo {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
   background-color: yellow;
+  height: 60px;
+  float: left;
+  margin: 10px;
+  width: 60px;
 }
 
-/* line 17, ../sass/style.scss */
+/* line 24, ../sass/style.scss */
 .user_menu {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
   background-color: green;
-}
-
-/* line 20, ../sass/style.scss */
-nav {
-  background-color: pink;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 10px;
-  width: 960px;
-}
-
-/* line 27, ../sass/style.scss */
-.site_menu {
-  background-color: violet;
-}
-
-/* line 30, ../sass/style.scss */
-.navigation {
-  background-color: white;
+  height: 20px;
+  margin: 10px;
+  float: right;
+  width: 220px;
 }
 
 /* line 33, ../sass/style.scss */
-.content {
-  background-color: orange;
-}
-
-/* line 36, ../sass/style.scss */
-footer {
-  background-color: brown;
+nav {
+  background-color: pink;
+  height: 340px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 10px;
   width: 960px;
 }
 
-/* line 43, ../sass/style.scss */
-.f_logo {
-  background-color: gray;
+/* line 40, ../sass/style.scss */
+.site_menu {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  background-color: violet;
+  height: 20px;
+  float: right;
+  margin-right: 10px;
+  margin-top: -30px;
+  width: 620px;
 }
 
-/* line 46, ../sass/style.scss */
+/* line 50, ../sass/style.scss */
+.navigation {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  background-color: white;
+  float: left;
+  height: 320px;
+  margin: 10px;
+  width: 220px;
+}
+
+/* line 59, ../sass/style.scss */
+.content {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  background-color: orange;
+  float: right;
+  height: 320px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 710px;
+}
+
+/* line 70, ../sass/style.scss */
+footer {
+  background-color: brown;
+  height: 105px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+
+/* line 77, ../sass/style.scss */
+.f_logo {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  background-color: gray;
+  height: 55px;
+  margin: 10px;
+  width: 55px;
+}
+
+/* line 85, ../sass/style.scss */
 .copyright {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
   background-color: purple;
+  height: 20px;
+  margin-bottom: 10px;
+  width: 480px;
 }

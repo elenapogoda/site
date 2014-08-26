@@ -1,4 +1,5 @@
 @import "partials/base";
+@import "compass";
 
 body {
   background-color: $main-color;
@@ -6,43 +7,86 @@ body {
 }
 header {
   background-color: $h-color;
+  height: 80px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 10px;
   width: 960px;
 }
 .logo {
+  @include inline-block;
+
   background-color: $l-color;
+  height: 60px;
+  float: left;
+  margin: 10px;
+  width: 60px;
 }
 .user_menu {
+  @include inline-block;
+
   background-color: $um-color;
+  height: 20px;
+  margin: 10px;
+  float: right;
+  width: 220px;
 }
 nav {
   background-color: $nav-color;
+  height: 340px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 10px;
   width: 960px;
 }
 .site_menu {
+  @include inline-block;
+
   background-color: $sm-color;
+  height: 20px;
+  float: right;
+  margin-right: 10px;
+  margin-top: -30px;
+  width: 620px;
 }
 .navigation {
+  @include inline-block;
+
   background-color: $n-color;
+  float: left;
+  height: 320px;
+  margin: 10px;
+  width: 220px;
 }
 .content {
+  @include inline-block;
+
   background-color: $c-color;
+  float: right;
+  height: 320px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 710px;
 }
 footer {
   background-color: $f-color;
+  height: 105px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 10px;
   width: 960px;
 }
 .f_logo {
+  @include inline-block;
+
   background-color: $fl-color;
+  height: 55px;
+  margin: 10px;
+  width: 55px;
 }
 .copyright {
+  @include inline-block;
+
   background-color: $cop-color;
+  height: 20px;
+  margin-bottom: 10px;
+  width: 480px;
 }
