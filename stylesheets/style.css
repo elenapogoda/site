@@ -78,12 +78,11 @@ nav {
   *display: inline;
   background-color: white;
   float: left;
-  height: 320px;
-  margin: 10px;
-  width: 220px;
+  height: 340px;
+  width: 230px;
 }
 
-/* line 59, ../sass/style.scss */
+/* line 58, ../sass/style.scss */
 .content {
   display: -moz-inline-stack;
   display: inline-block;
@@ -93,34 +92,30 @@ nav {
   *display: inline;
   background-color: orange;
   float: right;
-  height: 320px;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  margin-right: 10px;
-  width: 710px;
+  height: 340px;
+  width: 730px;
 }
 
-/* line 70, ../sass/style.scss */
+/* line 66, ../sass/style.scss */
 footer {
   background-color: brown;
-  height: 210px;
+  height: 195px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   width: 960px;
 }
 
-/* line 78, ../sass/style.scss */
+/* line 74, ../sass/style.scss */
 .list_wrapper {
   background-color: gold;
-  height: 85px;
+  height: 70px;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
   width: 960px;
 }
 
-/* line 86, ../sass/style.scss */
+/* line 81, ../sass/style.scss */
 .list_1 {
   display: -moz-inline-stack;
   display: inline-block;
@@ -129,13 +124,11 @@ footer {
   zoom: 1;
   *display: inline;
   background-color: lime;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  margin-right: 10px;
-  width: 90px;
+  height: 70px;
+  width: 236px;
 }
 
-/* line 95, ../sass/style.scss */
+/* line 88, ../sass/style.scss */
 .list_2 {
   display: -moz-inline-stack;
   display: inline-block;
@@ -144,13 +137,11 @@ footer {
   zoom: 1;
   *display: inline;
   background-color: beige;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  margin-right: 10px;
-  width: 90px;
+  height: 70px;
+  width: 236px;
 }
 
-/* line 104, ../sass/style.scss */
+/* line 95, ../sass/style.scss */
 .list_3 {
   display: -moz-inline-stack;
   display: inline-block;
@@ -159,13 +150,11 @@ footer {
   zoom: 1;
   *display: inline;
   background-color: crimson;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  margin-right: 10px;
-  width: 90px;
+  height: 70px;
+  width: 236px;
 }
 
-/* line 113, ../sass/style.scss */
+/* line 102, ../sass/style.scss */
 .list_4 {
   display: -moz-inline-stack;
   display: inline-block;
@@ -174,12 +163,11 @@ footer {
   zoom: 1;
   *display: inline;
   background-color: silver;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  width: 90px;
+  height: 70px;
+  width: 236px;
 }
 
-/* line 121, ../sass/style.scss */
+/* line 109, ../sass/style.scss */
 .f_logo {
   display: -moz-inline-stack;
   display: inline-block;
@@ -193,7 +181,7 @@ footer {
   width: 55px;
 }
 
-/* line 129, ../sass/style.scss */
+/* line 117, ../sass/style.scss */
 .copyright {
   display: -moz-inline-stack;
   display: inline-block;

@@ -52,24 +52,20 @@ nav {
 
   background-color: $n-color;
   float: left;
-  height: 320px;
-  margin: 10px;
-  width: 220px;
+  height: 340px;
+  width: 230px;
 }
 .content {
   @include inline-block;
 
   background-color: $c-color;
   float: right;
-  height: 320px;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  margin-right: 10px;
-  width: 710px;
+  height: 340px;
+  width: 730px;
 }
 footer {
   background-color: $f-color;
-  height: 210px;
+  height: 195px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -77,46 +73,38 @@ footer {
 }
 .list_wrapper {
   background-color: $l_w-color;
-  height: 85px;
+  height: 70px;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
   width: 960px;
 }
 .list_1 {
   @include inline-block;
 
   background-color: $l_1-color;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  margin-right: 10px;
-  width: 90px;
+  height: 70px;
+  width: 236px;
 }
 .list_2 {
   @include inline-block;
 
   background-color: $l_2-color;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  margin-right: 10px;
-  width: 90px;
+  height: 70px;
+  width: 236px;
 }
 .list_3 {
   @include inline-block;
 
   background-color: $l_3-color;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  margin-right: 10px;
-  width: 90px;
+  height: 70px;
+  width: 236px;
 }
 .list_4 {
   @include inline-block;
 
   background-color: $l_4-color;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  width: 90px;
+  height: 70px;
+  width: 236px;
 }
 .f_logo {
   @include inline-block;
