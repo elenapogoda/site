@@ -69,17 +69,61 @@ nav {
 }
 footer {
   background-color: $f-color;
-  height: 105px;
+  height: 210px;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
   width: 960px;
+}
+.list_wrapper {
+  background-color: $l_w-color;
+  height: 85px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 960px;
+}
+.list_1 {
+  @include inline-block;
+
+  background-color: $l_1-color;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 90px;
+}
+.list_2 {
+  @include inline-block;
+
+  background-color: $l_2-color;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 90px;
+}
+.list_3 {
+  @include inline-block;
+
+  background-color: $l_3-color;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 90px;
+}
+.list_4 {
+  @include inline-block;
+
+  background-color: $l_4-color;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 90px;
 }
 .f_logo {
   @include inline-block;
 
   background-color: $fl-color;
   height: 55px;
-  margin: 10px;
+  margin-bottom: 10px;
   width: 55px;
 }
 .copyright {
