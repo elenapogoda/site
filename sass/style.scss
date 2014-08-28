@@ -38,14 +38,15 @@ nav {
   width: 960px;
 }
 .site_menu {
-  @include inline-block;
-
   background-color: $sm-color;
-  height: 20px;
-  float: right;
-  margin-right: 10px;
-  margin-top: -30px;
-  width: 620px;
+
+  ul {
+    @include inline-block;
+
+    li {
+      float: left;
+    }
+  }
 }
 .navigation {
   @include inline-block;
@@ -70,55 +71,48 @@ footer {
   margin-right: auto;
   text-align: center;
   width: 960px;
-}
-.list_wrapper {
-  background-color: $l_w-color;
-  height: 70px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 960px;
-}
-.list_1 {
-  @include inline-block;
+    .list_wrapper {
+    background-color: $l_w-color;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    .list {
+      float: left;
+      height: 70px;
+      width: 240px;
 
-  background-color: $l_1-color;
-  height: 70px;
-  width: 236px;
-}
-.list_2 {
-  @include inline-block;
+      &.list_1 {
+        background-color: $l_1-color;
+      }
 
-  background-color: $l_2-color;
-  height: 70px;
-  width: 236px;
-}
-.list_3 {
-  @include inline-block;
+      &.list_2 {
+        background-color: $l_2-color;
+      }
 
-  background-color: $l_3-color;
-  height: 70px;
-  width: 236px;
-}
-.list_4 {
-  @include inline-block;
+      &.list_3 {
+        background-color: $l_3-color;
+      }
 
-  background-color: $l_4-color;
-  height: 70px;
-  width: 236px;
-}
-.f_logo {
+      &.list_4 {
+        background-color: $l_4-color;
+      }
+    }
+    }
+  .f_logo {
   @include inline-block;
 
   background-color: $fl-color;
   height: 55px;
   margin-bottom: 10px;
   width: 55px;
-}
-.copyright {
+  }
+  .copyright {
   @include inline-block;
 
   background-color: $cop-color;
   height: 20px;
   margin-bottom: 10px;
   width: 480px;
+  }
 }

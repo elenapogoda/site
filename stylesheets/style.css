@@ -54,21 +54,23 @@ nav {
 
 /* line 40, ../sass/style.scss */
 .site_menu {
+  background-color: violet;
+}
+/* line 43, ../sass/style.scss */
+.site_menu ul {
   display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
   zoom: 1;
   *display: inline;
-  background-color: violet;
-  height: 20px;
-  float: right;
-  margin-right: 10px;
-  margin-top: -30px;
-  width: 620px;
+}
+/* line 46, ../sass/style.scss */
+.site_menu ul li {
+  float: left;
 }
 
-/* line 50, ../sass/style.scss */
+/* line 51, ../sass/style.scss */
 .navigation {
   display: -moz-inline-stack;
   display: inline-block;
@@ -82,7 +84,7 @@ nav {
   width: 230px;
 }
 
-/* line 58, ../sass/style.scss */
+/* line 59, ../sass/style.scss */
 .content {
   display: -moz-inline-stack;
   display: inline-block;
@@ -96,7 +98,7 @@ nav {
   width: 730px;
 }
 
-/* line 66, ../sass/style.scss */
+/* line 67, ../sass/style.scss */
 footer {
   background-color: brown;
   height: 195px;
@@ -105,70 +107,38 @@ footer {
   text-align: center;
   width: 960px;
 }
-
 /* line 74, ../sass/style.scss */
-.list_wrapper {
+footer .list_wrapper {
   background-color: gold;
   height: 70px;
   margin-left: auto;
   margin-right: auto;
   width: 960px;
 }
-
-/* line 81, ../sass/style.scss */
-.list_1 {
-  display: -moz-inline-stack;
-  display: inline-block;
-  vertical-align: middle;
-  *vertical-align: auto;
-  zoom: 1;
-  *display: inline;
+/* line 80, ../sass/style.scss */
+footer .list_wrapper .list {
+  float: left;
+  height: 70px;
+  width: 240px;
+}
+/* line 85, ../sass/style.scss */
+footer .list_wrapper .list.list_1 {
   background-color: lime;
-  height: 70px;
-  width: 236px;
 }
-
-/* line 88, ../sass/style.scss */
-.list_2 {
-  display: -moz-inline-stack;
-  display: inline-block;
-  vertical-align: middle;
-  *vertical-align: auto;
-  zoom: 1;
-  *display: inline;
+/* line 89, ../sass/style.scss */
+footer .list_wrapper .list.list_2 {
   background-color: beige;
-  height: 70px;
-  width: 236px;
 }
-
-/* line 95, ../sass/style.scss */
-.list_3 {
-  display: -moz-inline-stack;
-  display: inline-block;
-  vertical-align: middle;
-  *vertical-align: auto;
-  zoom: 1;
-  *display: inline;
+/* line 93, ../sass/style.scss */
+footer .list_wrapper .list.list_3 {
   background-color: crimson;
-  height: 70px;
-  width: 236px;
 }
-
-/* line 102, ../sass/style.scss */
-.list_4 {
-  display: -moz-inline-stack;
-  display: inline-block;
-  vertical-align: middle;
-  *vertical-align: auto;
-  zoom: 1;
-  *display: inline;
+/* line 97, ../sass/style.scss */
+footer .list_wrapper .list.list_4 {
   background-color: silver;
-  height: 70px;
-  width: 236px;
 }
-
-/* line 109, ../sass/style.scss */
-.f_logo {
+/* line 102, ../sass/style.scss */
+footer .f_logo {
   display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
@@ -180,9 +150,8 @@ footer {
   margin-bottom: 10px;
   width: 55px;
 }
-
-/* line 117, ../sass/style.scss */
-.copyright {
+/* line 110, ../sass/style.scss */
+footer .copyright {
   display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
