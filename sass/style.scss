@@ -44,8 +44,7 @@ nav {
   width: 253px;
 
   ul {
-    @include inline-block;
-
+    
     li {
       float: left;
       padding-bottom: 5px;

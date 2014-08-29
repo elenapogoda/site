@@ -59,28 +59,19 @@ nav {
   margin-top: -26px;
   width: 253px;
 }
-/* line 46, ../sass/style.scss */
-.site_menu ul {
-  display: -moz-inline-stack;
-  display: inline-block;
-  vertical-align: middle;
-  *vertical-align: auto;
-  zoom: 1;
-  *display: inline;
-}
-/* line 49, ../sass/style.scss */
+/* line 48, ../sass/style.scss */
 .site_menu ul li {
   float: left;
   padding-bottom: 5px;
   padding-left: 5px;
   padding-top: 5px;
 }
-/* line 54, ../sass/style.scss */
+/* line 53, ../sass/style.scss */
 .site_menu ul li:last-child {
   padding-right: 5px;
 }
 
-/* line 60, ../sass/style.scss */
+/* line 59, ../sass/style.scss */
 .navigation {
   display: -moz-inline-stack;
   display: inline-block;
@@ -94,7 +85,7 @@ nav {
   width: 230px;
 }
 
-/* line 68, ../sass/style.scss */
+/* line 67, ../sass/style.scss */
 .content {
   display: -moz-inline-stack;
   display: inline-block;
@@ -108,7 +99,7 @@ nav {
   width: 730px;
 }
 
-/* line 76, ../sass/style.scss */
+/* line 75, ../sass/style.scss */
 footer {
   background-color: brown;
   height: 195px;
@@ -117,7 +108,7 @@ footer {
   text-align: center;
   width: 960px;
 }
-/* line 83, ../sass/style.scss */
+/* line 82, ../sass/style.scss */
 footer .list_wrapper {
   background-color: gold;
   height: 70px;
@@ -125,29 +116,29 @@ footer .list_wrapper {
   margin-right: auto;
   width: 960px;
 }
-/* line 89, ../sass/style.scss */
+/* line 88, ../sass/style.scss */
 footer .list_wrapper .list {
   float: left;
   height: 70px;
   width: 240px;
 }
-/* line 94, ../sass/style.scss */
+/* line 93, ../sass/style.scss */
 footer .list_wrapper .list.list_1 {
   background-color: lime;
 }
-/* line 98, ../sass/style.scss */
+/* line 97, ../sass/style.scss */
 footer .list_wrapper .list.list_2 {
   background-color: beige;
 }
-/* line 102, ../sass/style.scss */
+/* line 101, ../sass/style.scss */
 footer .list_wrapper .list.list_3 {
   background-color: crimson;
 }
-/* line 106, ../sass/style.scss */
+/* line 105, ../sass/style.scss */
 footer .list_wrapper .list.list_4 {
   background-color: silver;
 }
-/* line 111, ../sass/style.scss */
+/* line 110, ../sass/style.scss */
 footer .f_logo {
   display: -moz-inline-stack;
   display: inline-block;
@@ -160,7 +151,7 @@ footer .f_logo {
   margin-bottom: 10px;
   width: 55px;
 }
-/* line 119, ../sass/style.scss */
+/* line 118, ../sass/style.scss */
 footer .copyright {
   display: -moz-inline-stack;
   display: inline-block;
