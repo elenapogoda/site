@@ -36,13 +36,9 @@ header {
   *vertical-align: auto;
   zoom: 1;
   *display: inline;
-  -moz-border-radius-bottomleft: 10px;
-  -webkit-border-bottom-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-  background-color: green;
   float: right;
 }
-/* line 32, ../sass/style.scss */
+/* line 30, ../sass/style.scss */
 .user_menu ul {
   display: -moz-inline-stack;
   display: inline-block;
@@ -50,8 +46,12 @@ header {
   *vertical-align: auto;
   zoom: 1;
   *display: inline;
+  -moz-border-radius-bottomleft: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: green;
 }
-/* line 35, ../sass/style.scss */
+/* line 36, ../sass/style.scss */
 .user_menu ul li {
   float: left;
   overflow: hidden;
@@ -59,22 +59,22 @@ header {
   padding-left: 5px;
   padding-top: 5px;
 }
-/* line 42, ../sass/style.scss */
+/* line 43, ../sass/style.scss */
 .user_menu ul li:last-child {
   padding-right: 5px;
 }
-/* line 45, ../sass/style.scss */
+/* line 46, ../sass/style.scss */
 .user_menu ul li:hover {
   background-color: yellow;
 }
-/* line 47, ../sass/style.scss */
+/* line 48, ../sass/style.scss */
 .user_menu ul li:hover:first-child {
   -moz-border-radius-bottomleft: 10px;
   -webkit-border-bottom-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
 
-/* line 54, ../sass/style.scss */
+/* line 55, ../sass/style.scss */
 nav {
   background-color: pink;
   height: 340px;
@@ -83,7 +83,7 @@ nav {
   width: 960px;
 }
 
-/* line 61, ../sass/style.scss */
+/* line 62, ../sass/style.scss */
 .site_menu {
   display: -moz-inline-stack;
   display: inline-block;
@@ -95,7 +95,7 @@ nav {
   margin-top: -26px;
   width: 960px;
 }
-/* line 68, ../sass/style.scss */
+/* line 69, ../sass/style.scss */
 .site_menu ul {
   display: -moz-inline-stack;
   display: inline-block;
@@ -109,7 +109,7 @@ nav {
   background-color: green;
   float: right;
 }
-/* line 74, ../sass/style.scss */
+/* line 75, ../sass/style.scss */
 .site_menu ul li {
   float: left;
   overflow: hidden;
@@ -117,22 +117,22 @@ nav {
   padding-left: 5px;
   padding-top: 5px;
 }
-/* line 80, ../sass/style.scss */
+/* line 81, ../sass/style.scss */
 .site_menu ul li:last-child {
   padding-right: 5px;
 }
-/* line 83, ../sass/style.scss */
+/* line 84, ../sass/style.scss */
 .site_menu ul li:hover {
   background-color: yellow;
 }
-/* line 85, ../sass/style.scss */
+/* line 86, ../sass/style.scss */
 .site_menu ul li:hover:first-child {
   -moz-border-radius-topleft: 10px;
   -webkit-border-top-left-radius: 10px;
   border-top-left-radius: 10px;
 }
 
-/* line 92, ../sass/style.scss */
+/* line 93, ../sass/style.scss */
 .navigation {
   display: -moz-inline-stack;
   display: inline-block;
@@ -147,7 +147,7 @@ nav {
   width: 230px;
 }
 
-/* line 101, ../sass/style.scss */
+/* line 102, ../sass/style.scss */
 .content {
   display: -moz-inline-stack;
   display: inline-block;
@@ -162,7 +162,7 @@ nav {
   width: 730px;
 }
 
-/* line 110, ../sass/style.scss */
+/* line 111, ../sass/style.scss */
 footer {
   background-color: brown;
   height: 195px;
@@ -171,7 +171,7 @@ footer {
   text-align: center;
   width: 960px;
 }
-/* line 117, ../sass/style.scss */
+/* line 118, ../sass/style.scss */
 footer .list_wrapper {
   background-color: gold;
   height: 70px;
@@ -179,29 +179,29 @@ footer .list_wrapper {
   margin-right: auto;
   width: 960px;
 }
-/* line 123, ../sass/style.scss */
+/* line 124, ../sass/style.scss */
 footer .list_wrapper .list {
   float: left;
   height: 70px;
   width: 240px;
 }
-/* line 128, ../sass/style.scss */
+/* line 129, ../sass/style.scss */
 footer .list_wrapper .list.list_1 {
   background-color: lime;
 }
-/* line 132, ../sass/style.scss */
+/* line 133, ../sass/style.scss */
 footer .list_wrapper .list.list_2 {
   background-color: beige;
 }
-/* line 136, ../sass/style.scss */
+/* line 137, ../sass/style.scss */
 footer .list_wrapper .list.list_3 {
   background-color: crimson;
 }
-/* line 140, ../sass/style.scss */
+/* line 141, ../sass/style.scss */
 footer .list_wrapper .list.list_4 {
   background-color: silver;
 }
-/* line 145, ../sass/style.scss */
+/* line 146, ../sass/style.scss */
 footer .f_logo {
   display: -moz-inline-stack;
   display: inline-block;
@@ -214,7 +214,7 @@ footer .f_logo {
   margin-bottom: 10px;
   width: 55px;
 }
-/* line 153, ../sass/style.scss */
+/* line 154, ../sass/style.scss */
 footer .copyright {
   display: -moz-inline-stack;
   display: inline-block;

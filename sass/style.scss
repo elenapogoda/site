@@ -24,13 +24,14 @@ header {
 }
 .user_menu {
   @include inline-block;
-  @include border-bottom-left-radius;
-
-  background-color: $um-color;
+    
   float: right;
   
     ul {
       @include inline-block;
+      @include border-bottom-left-radius;
+
+      background-color: $um-color;
 
       li {
         float: left;
