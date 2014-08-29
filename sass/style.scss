@@ -1,4 +1,5 @@
 @import "partials/base";
+$default-border-radius: 10px;
 @import "compass";
 
 body {
@@ -10,7 +11,7 @@ header {
   height: 80px;
   margin-left: auto;
   margin-right: auto;
-  width: 960px;
+  width: $page-width;
 }
 .logo {
   @include inline-block;
@@ -35,18 +36,25 @@ nav {
   height: 340px;
   margin-left: auto;
   margin-right: auto;
-  width: 960px;
+  width: $page-width;
 }
 .site_menu {
-  background-color: $sm-color;
-  float: right;
-  margin-top: -26px;
-  width: 253px;
+  @include inline-block;
 
+  width: $page-width;
+
+  background: transparent;
+  margin-top: -26px;
+  
   ul {
-    
+    @include inline-block;
+    @include border-top-left-radius;
+
+    background-color: green;
+    float: right;
     li {
       float: left;
+      overflow: hidden;
       padding-bottom: 5px;
       padding-left: 5px;
       padding-top: 5px;
@@ -78,13 +86,13 @@ footer {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  width: 960px;
+  width: $page-width;
     .list_wrapper {
         background-color: $l_w-color;
         height: 70px;
         margin-left: auto;
         margin-right: auto;
-        width: 960px;
+        width: $page-width;
         .list {
           float: left;
           height: 70px;
