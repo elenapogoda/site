@@ -1,6 +1,7 @@
 @import "partials/base";
 $default-border-radius: 10px;
 @import "compass";
+@import "compass/css3/images";
 
 body {
   background-color: $main-color;
@@ -8,19 +9,16 @@ body {
 }
 header {
   background-color: $h-color;
-  height: 80px;
+  height: 180px;
   margin-left: auto;
   margin-right: auto;
   width: $page-width;
 }
 .logo {
-  @include inline-block;
-
-  background-color: $l-color;
-  height: 60px;
+  
+  background-image: url("../images/svg/gear.svg") no-repeat;
   float: left;
   margin: 10px;
-  width: 60px;
 }
 .user_menu {
   @include inline-block;
