@@ -13,8 +13,8 @@ header {
   margin-left: auto;
   margin-right: auto;
   width: $page-width;
-}
-.logo {
+
+  .logo {
   @include inline-block;
 
   background: url("../images/svg/logo.svg") no-repeat;
@@ -22,12 +22,13 @@ header {
   float: left;
   margin: 10px;
   width: 35px;
-}
-.user_menu {
+  }
+
+  .user_menu {
   @include inline-block;
     
   float: right;
-  
+
     ul {
       @include inline-block;
       @include border-bottom-left-radius;
@@ -52,27 +53,19 @@ header {
         }
       }
     }
-}
-nav {
-  background-color: $nav-color;
-  height: 340px;
-  margin-left: auto;
-  margin-right: auto;
-  width: $page-width;
+  }
 }
 .site_menu {
   @include inline-block;
-
-  background: transparent;
-  margin-top: -26px;
-  width: $page-width;
   
+  float: right;
+  margin-top: -26px;
+
   ul {
     @include inline-block;
     @include border-top-left-radius;
 
     background-color: $um-color;
-    float: right;
     li {
       float: left;
       overflow: hidden;
@@ -87,27 +80,33 @@ nav {
           &:first-child {
             @include border-top-left-radius;
           }
-        }
+      }
     }
   }
 }
-.navigation {
-  @include inline-block;
+.main_wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
 
-  background-color: $n-color;
-  float: left;
-  height: 340px;
-  margin-top: -5px;
-  width: 230px;
-}
-.content {
-  @include inline-block;
+    .navigation {
+    @include inline-block;
 
-  background-color: $c-color;
-  float: right;
-  height: 340px;
-  margin-top: -5px;
-  width: 730px;
+    background-color: $n-color;
+    float: left;
+    height: 340px;
+    margin-top: -5px;
+    width: 230px;
+    }
+    .content {
+    @include inline-block;
+
+    background-color: $c-color;
+    float: right;
+    height: 340px;
+    margin-top: -5px;
+    width: 730px;
+    }
 }
 footer {
   background-color: $f-color;
