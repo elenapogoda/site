@@ -121,11 +121,12 @@ header .user_menu ul li:hover:first-child {
 
 /* line 87, ../sass/style.scss */
 .main_wrapper {
+  height: 340px;
   margin-left: auto;
   margin-right: auto;
   width: 960px;
 }
-/* line 92, ../sass/style.scss */
+/* line 93, ../sass/style.scss */
 .main_wrapper .navigation {
   display: -moz-inline-stack;
   display: inline-block;
@@ -138,7 +139,7 @@ header .user_menu ul li:hover:first-child {
   height: 340px;
   width: 230px;
 }
-/* line 100, ../sass/style.scss */
+/* line 101, ../sass/style.scss */
 .main_wrapper .content {
   display: -moz-inline-stack;
   display: inline-block;
@@ -152,7 +153,7 @@ header .user_menu ul li:hover:first-child {
   width: 730px;
 }
 
-/* line 109, ../sass/style.scss */
+/* line 110, ../sass/style.scss */
 footer {
   background-color: brown;
   height: 195px;
@@ -161,7 +162,7 @@ footer {
   text-align: center;
   width: 960px;
 }
-/* line 116, ../sass/style.scss */
+/* line 117, ../sass/style.scss */
 footer .list_wrapper {
   background-color: gold;
   height: 70px;
@@ -169,29 +170,29 @@ footer .list_wrapper {
   margin-right: auto;
   width: 960px;
 }
-/* line 122, ../sass/style.scss */
+/* line 123, ../sass/style.scss */
 footer .list_wrapper .list {
   float: left;
   height: 70px;
   width: 240px;
 }
-/* line 127, ../sass/style.scss */
+/* line 128, ../sass/style.scss */
 footer .list_wrapper .list.list_1 {
   background-color: lime;
 }
-/* line 131, ../sass/style.scss */
+/* line 132, ../sass/style.scss */
 footer .list_wrapper .list.list_2 {
   background-color: beige;
 }
-/* line 135, ../sass/style.scss */
+/* line 136, ../sass/style.scss */
 footer .list_wrapper .list.list_3 {
   background-color: crimson;
 }
-/* line 139, ../sass/style.scss */
+/* line 140, ../sass/style.scss */
 footer .list_wrapper .list.list_4 {
   background-color: silver;
 }
-/* line 144, ../sass/style.scss */
+/* line 145, ../sass/style.scss */
 footer .f_logo {
   display: -moz-inline-stack;
   display: inline-block;
@@ -204,7 +205,7 @@ footer .f_logo {
   margin-bottom: 10px;
   width: 55px;
 }
-/* line 152, ../sass/style.scss */
+/* line 153, ../sass/style.scss */
 footer .copyright {
   display: -moz-inline-stack;
   display: inline-block;
