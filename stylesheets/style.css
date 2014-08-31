@@ -140,6 +140,26 @@ header .user_menu ul li:hover:first-child {
   width: 230px;
 }
 /* line 101, ../sass/style.scss */
+.main_wrapper .navigation .nav_main_1 li {
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  position: relative;
+  z-index: 1;
+}
+/* line 109, ../sass/style.scss */
+.main_wrapper .navigation .nav_main_1 .sub_menu_1 {
+  display: none;
+  position: absolute;
+  width: 200px;
+  z-index: 10;
+}
+/* line 114, ../sass/style.scss */
+.main_wrapper .navigation .nav_main_1 .sub_menu_1 li:hover {
+  display: block;
+}
+/* line 120, ../sass/style.scss */
 .main_wrapper .content {
   display: -moz-inline-stack;
   display: inline-block;
@@ -153,7 +173,7 @@ header .user_menu ul li:hover:first-child {
   width: 730px;
 }
 
-/* line 110, ../sass/style.scss */
+/* line 129, ../sass/style.scss */
 footer {
   background-color: brown;
   height: 195px;
@@ -162,7 +182,7 @@ footer {
   text-align: center;
   width: 960px;
 }
-/* line 117, ../sass/style.scss */
+/* line 136, ../sass/style.scss */
 footer .list_wrapper {
   background-color: gold;
   height: 70px;
@@ -170,29 +190,29 @@ footer .list_wrapper {
   margin-right: auto;
   width: 960px;
 }
-/* line 123, ../sass/style.scss */
+/* line 142, ../sass/style.scss */
 footer .list_wrapper .list {
   float: left;
   height: 70px;
   width: 240px;
 }
-/* line 128, ../sass/style.scss */
+/* line 147, ../sass/style.scss */
 footer .list_wrapper .list.list_1 {
   background-color: lime;
 }
-/* line 132, ../sass/style.scss */
+/* line 151, ../sass/style.scss */
 footer .list_wrapper .list.list_2 {
   background-color: beige;
 }
-/* line 136, ../sass/style.scss */
+/* line 155, ../sass/style.scss */
 footer .list_wrapper .list.list_3 {
   background-color: crimson;
 }
-/* line 140, ../sass/style.scss */
+/* line 159, ../sass/style.scss */
 footer .list_wrapper .list.list_4 {
   background-color: silver;
 }
-/* line 145, ../sass/style.scss */
+/* line 164, ../sass/style.scss */
 footer .f_logo {
   display: -moz-inline-stack;
   display: inline-block;
@@ -205,7 +225,7 @@ footer .f_logo {
   margin-bottom: 10px;
   width: 55px;
 }
-/* line 153, ../sass/style.scss */
+/* line 172, ../sass/style.scss */
 footer .copyright {
   display: -moz-inline-stack;
   display: inline-block;
