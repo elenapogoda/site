@@ -95,9 +95,9 @@ header {
 
     background-color: $n-color;
     float: left;
-    height: 340px;
+    height: 358px;
     width: 230px;
-      .nav_main_1 {
+      .nav_m {
         li {
           padding-bottom: 5px;
           padding-left: 5px;
@@ -107,13 +107,21 @@ header {
           &:hover {
             display: block;
             
+            .sub {
+              display: block;
+            }
             .sub_menu_1 {
               background-color: $um-color;
-              display: block;
+            }
+            .sub_menu_2 {
+              background-color: $l-color;
+            }
+            .sub_menu_3 {
+              background-color: $l_1-color;
             }
           }
         }
-        .sub_menu_1 {
+        .sub {
           display: none;
         }
       }
@@ -123,19 +131,29 @@ header {
 
     background-color: $c-color;
     float: right;
-    height: 340px;
+    height: 358px;
     width: 730px;
 
       .title {
-        color: $f-color;
+        font-weight: bold;
         margin: 10px;
       }
-      .image_1 {
+      .title_1 {
+        color: $f-color;
+      }
+      .title_2 {
+        color: $fl-color;
+      }
+      .title_3 {
+        color: $h-color;
+      }
+      .image {
         float: left;
         margin: 10px;
       }
       .body {
         margin: 10px;
+        text-align: justify;
       }
     }
 }
@@ -180,6 +198,7 @@ footer {
   background-color: $fl-color;
   height: 55px;
   margin-bottom: 10px;
+  margin-top: 10px;
   width: 55px;
   }
   .copyright {

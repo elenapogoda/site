@@ -136,30 +136,41 @@ header .user_menu ul li:hover:first-child {
   *display: inline;
   background-color: white;
   float: left;
-  height: 340px;
+  height: 358px;
   width: 230px;
 }
 /* line 101, ../sass/style.scss */
-.main_wrapper .navigation .nav_main_1 li {
+.main_wrapper .navigation .nav_m li {
   padding-bottom: 5px;
   padding-left: 5px;
   padding-right: 5px;
   padding-top: 5px;
 }
 /* line 107, ../sass/style.scss */
-.main_wrapper .navigation .nav_main_1 li:hover {
+.main_wrapper .navigation .nav_m li:hover {
   display: block;
 }
 /* line 110, ../sass/style.scss */
-.main_wrapper .navigation .nav_main_1 li:hover .sub_menu_1 {
-  background-color: green;
+.main_wrapper .navigation .nav_m li:hover .sub {
   display: block;
 }
+/* line 113, ../sass/style.scss */
+.main_wrapper .navigation .nav_m li:hover .sub_menu_1 {
+  background-color: green;
+}
 /* line 116, ../sass/style.scss */
-.main_wrapper .navigation .nav_main_1 .sub_menu_1 {
+.main_wrapper .navigation .nav_m li:hover .sub_menu_2 {
+  background-color: yellow;
+}
+/* line 119, ../sass/style.scss */
+.main_wrapper .navigation .nav_m li:hover .sub_menu_3 {
+  background-color: lime;
+}
+/* line 124, ../sass/style.scss */
+.main_wrapper .navigation .nav_m .sub {
   display: none;
 }
-/* line 121, ../sass/style.scss */
+/* line 129, ../sass/style.scss */
 .main_wrapper .content {
   display: -moz-inline-stack;
   display: inline-block;
@@ -169,25 +180,38 @@ header .user_menu ul li:hover:first-child {
   *display: inline;
   background-color: orange;
   float: right;
-  height: 340px;
+  height: 358px;
   width: 730px;
 }
-/* line 129, ../sass/style.scss */
+/* line 137, ../sass/style.scss */
 .main_wrapper .content .title {
-  color: brown;
+  font-weight: bold;
   margin: 10px;
 }
-/* line 133, ../sass/style.scss */
-.main_wrapper .content .image_1 {
+/* line 141, ../sass/style.scss */
+.main_wrapper .content .title_1 {
+  color: brown;
+}
+/* line 144, ../sass/style.scss */
+.main_wrapper .content .title_2 {
+  color: gray;
+}
+/* line 147, ../sass/style.scss */
+.main_wrapper .content .title_3 {
+  color: blue;
+}
+/* line 150, ../sass/style.scss */
+.main_wrapper .content .image {
   float: left;
   margin: 10px;
 }
-/* line 137, ../sass/style.scss */
+/* line 154, ../sass/style.scss */
 .main_wrapper .content .body {
   margin: 10px;
+  text-align: justify;
 }
 
-/* line 142, ../sass/style.scss */
+/* line 160, ../sass/style.scss */
 footer {
   background-color: brown;
   height: 195px;
@@ -196,7 +220,7 @@ footer {
   text-align: center;
   width: 960px;
 }
-/* line 149, ../sass/style.scss */
+/* line 167, ../sass/style.scss */
 footer .list_wrapper {
   background-color: gold;
   height: 70px;
@@ -204,29 +228,29 @@ footer .list_wrapper {
   margin-right: auto;
   width: 960px;
 }
-/* line 155, ../sass/style.scss */
+/* line 173, ../sass/style.scss */
 footer .list_wrapper .list {
   float: left;
   height: 70px;
   width: 240px;
 }
-/* line 160, ../sass/style.scss */
+/* line 178, ../sass/style.scss */
 footer .list_wrapper .list.list_1 {
   background-color: lime;
 }
-/* line 164, ../sass/style.scss */
+/* line 182, ../sass/style.scss */
 footer .list_wrapper .list.list_2 {
   background-color: beige;
 }
-/* line 168, ../sass/style.scss */
+/* line 186, ../sass/style.scss */
 footer .list_wrapper .list.list_3 {
   background-color: crimson;
 }
-/* line 172, ../sass/style.scss */
+/* line 190, ../sass/style.scss */
 footer .list_wrapper .list.list_4 {
   background-color: silver;
 }
-/* line 177, ../sass/style.scss */
+/* line 195, ../sass/style.scss */
 footer .f_logo {
   display: -moz-inline-stack;
   display: inline-block;
@@ -237,9 +261,10 @@ footer .f_logo {
   background-color: gray;
   height: 55px;
   margin-bottom: 10px;
+  margin-top: 10px;
   width: 55px;
 }
-/* line 185, ../sass/style.scss */
+/* line 204, ../sass/style.scss */
 footer .copyright {
   display: -moz-inline-stack;
   display: inline-block;
