@@ -220,29 +220,36 @@ footer {
   text-align: center;
   width: 960px;
 }
-/* line 168, ../sass/style.scss */
+@media only screen and (max-width: 480px) {
+  /* line 160, ../sass/style.scss */
+  footer {
+    height: auto;
+    width: auto;
+  }
+}
+/* line 174, ../sass/style.scss */
 footer .list_wrapper .list {
   float: left;
   height: 70px;
   width: 240px;
 }
-/* line 173, ../sass/style.scss */
+/* line 179, ../sass/style.scss */
 footer .list_wrapper .list.list_1 {
   background-color: lime;
 }
-/* line 177, ../sass/style.scss */
+/* line 183, ../sass/style.scss */
 footer .list_wrapper .list.list_2 {
   background-color: beige;
 }
-/* line 181, ../sass/style.scss */
+/* line 187, ../sass/style.scss */
 footer .list_wrapper .list.list_3 {
   background-color: crimson;
 }
-/* line 185, ../sass/style.scss */
+/* line 191, ../sass/style.scss */
 footer .list_wrapper .list.list_4 {
   background-color: silver;
 }
-/* line 190, ../sass/style.scss */
+/* line 196, ../sass/style.scss */
 footer .f_logo {
   display: -moz-inline-stack;
   display: inline-block;
@@ -256,7 +263,17 @@ footer .f_logo {
   margin-top: 10px;
   width: 55px;
 }
-/* line 199, ../sass/style.scss */
+@media only screen and (max-width: 480px) {
+  /* line 196, ../sass/style.scss */
+  footer .f_logo {
+    clear: both;
+    display: block;
+    float: left;
+    margin: 10px;
+    text-align: center;
+  }
+}
+/* line 213, ../sass/style.scss */
 footer .copyright {
   display: -moz-inline-stack;
   display: inline-block;
@@ -268,70 +285,4 @@ footer .copyright {
   height: 20px;
   margin-bottom: 10px;
   width: 480px;
-}
-
-@media screen and (min-width: 480px) and (max-width: 959px) {
-  /* line 209, ../sass/style.scss */
-  footer {
-    background-color: brown;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    width: auto;
-  }
-  /* line 215, ../sass/style.scss */
-  footer .list_wrapper {
-    display: -moz-inline-stack;
-    display: inline-block;
-    vertical-align: middle;
-    *vertical-align: auto;
-    zoom: 1;
-    *display: inline;
-  }
-  /* line 218, ../sass/style.scss */
-  footer .list_wrapper .list {
-    float: left;
-    width: 240px;
-  }
-  /* line 222, ../sass/style.scss */
-  footer .list_wrapper .list.list_1 {
-    background-color: lime;
-  }
-  /* line 226, ../sass/style.scss */
-  footer .list_wrapper .list.list_2 {
-    background-color: beige;
-  }
-  /* line 230, ../sass/style.scss */
-  footer .list_wrapper .list.list_3 {
-    background-color: crimson;
-  }
-  /* line 234, ../sass/style.scss */
-  footer .list_wrapper .list.list_4 {
-    background-color: silver;
-  }
-  /* line 239, ../sass/style.scss */
-  footer .f_logo {
-    display: -moz-inline-stack;
-    display: inline-block;
-    vertical-align: middle;
-    *vertical-align: auto;
-    zoom: 1;
-    *display: inline;
-    background-color: gray;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    width: 55px;
-  }
-  /* line 247, ../sass/style.scss */
-  footer .copyright {
-    display: -moz-inline-stack;
-    display: inline-block;
-    vertical-align: middle;
-    *vertical-align: auto;
-    zoom: 1;
-    *display: inline;
-    background-color: purple;
-    margin-bottom: 10px;
-    width: 240px;
-  }
 }
