@@ -85,6 +85,8 @@ header {
   }
 }
 .main_wrapper {
+  @include inline-block;
+
   height: 340px;
   margin-left: auto;
   margin-right: auto;
@@ -158,6 +160,8 @@ header {
     }
 }
 footer {
+  @include inline-block;
+
   background-color: $f-color;
   height: $footer-normal-height;
   margin-left: auto;
@@ -172,6 +176,9 @@ footer {
     }
 
     .list_wrapper {
+      @include inline-block;
+      
+      background-color: $c-color;
         .list {
           float: left;
           height: 70px;
@@ -193,23 +200,25 @@ footer {
             background-color: $l_4-color;
           }
         }
-    }
-  .f_logo {
-    @include inline-block;
-  
-    background-color: $fl-color;
-    height: 55px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    width: 55px;
+      }
+  .center_wrapper {
+    background-color: $main-color;
+    display: block;
+    text-align: center;
+    .f_logo {
+      @include inline-block;
 
-    @media only screen and (max-width: 480px) {
-      clear: both;
+      background-color: $fl-color;
       height: 55px;
-      display: block;
-      float: left;
-      margin: 10px;
+      margin-bottom: 10px;
+      margin-top: 10px;
       width: 55px;
+
+      @media only screen and (max-width: 480px) {
+        height: 55px;
+        margin: 10px;
+        width: 55px;
+      }
     }
   }
     .copyright {
